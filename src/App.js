@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Lista from "./Components/Lista";
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Componente Padre</h1>
-        <Lista/>
-      </header>
+      <header>
+        <NavBar />
+        <ItemListContainer bienvenida={'Bienvenido al vivero!'}/>
+        </header>
     </div>
   );
 }
