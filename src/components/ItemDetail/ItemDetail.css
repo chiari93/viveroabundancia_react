@@ -1,0 +1,16 @@
+.itemImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cardItem{
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.itemFooter{
+    display: flex;
+}
